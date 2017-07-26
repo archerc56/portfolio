@@ -1,9 +1,9 @@
-I.	Problem Statement
+# I.	Problem Statement
 
   For Program 5, I was tasked with building a transitive closure by implementing Warshall’s Algorithm. I ran the algorithm with several 
   different sized matrices to see if the algorithm followed a cubic time efficiency. 
  
-II. Algorithm
+# II. Algorithm
  
   Overview: 
     For warshall.java, the program read in a String representing a file name. This file holds an adjacency matrix that will be converted 
@@ -17,7 +17,7 @@ II. Algorithm
     node in the matrix. Once this is completed, the transitive closure stored in R, is returned. The last part of our program is the 
     print method, that will print out the transitive closure passed in.  
 
-III. Implementation
+# III. Implementation
 
   Dictionary of Variables Used:
     String fileName: Holds the name of the file read in from the console
@@ -28,7 +28,7 @@ III. Implementation
     int [ ] [ ] transitiveClosure: holds the transitive closure created using Warshall’s algorithm
     File inputFile: holds the file the adjacency matrix is read in from
 
-IV. Experiment
+# IV. Experiment
  
   Location Program Ran: Windows Environment
   Machine Used:
@@ -70,7 +70,7 @@ IV. Experiment
             Program Execution Time: 0.0213 milliseconds
 
 
- V.	Analysis
+# V.	Analysis
  
   Results:
     To test Program 5 I ran the program with four different sizes of matrices: 4x4, 6x6, 8x8, 10x10. The only thing timed was the 
@@ -91,7 +91,7 @@ IV. Experiment
     sharper than the first jump but smaller than second jump.
     
     
-VI.	Conclusions
+# VI.	Conclusions
 
   Final Results and Observations:
     Our results show that with each growth of matrix size, the completion of the algorithm took longer and longer. The graph above does 
