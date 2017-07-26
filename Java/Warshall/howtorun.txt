@@ -1,0 +1,7 @@
+Our program, warshall.java, requires one argument to be passed in on the command line. 
+The argument passed in should be the name of the file that holds the adjacency matrix
+to build the transitive closure from. 
+
+Example of how to run the program on UNIX once its been compiled:
+	java warshall d.txt
+	
