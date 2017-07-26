@@ -1,4 +1,4 @@
-# I.	Assignment/Objective
+# I.	Assignment
 This lab focuses on the idea of mutual exclusion, synchronization enforcement, deadlock, and 
 starvation avoidance. For this part of the lab, I started implementing these principles, by locking
 memory to one user at a time. The purpose of this program is to develop and explore operating system components, 
