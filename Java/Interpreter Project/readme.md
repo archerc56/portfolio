@@ -1,4 +1,4 @@
-#I.	Assignment/Objective
+# I.	Assignment/Objective
 This lab focuses on the idea of mutual exclusion, synchronization enforcement, deadlock, and 
 starvation avoidance. For this part of the lab, I started implementing these principles, by locking
 memory to one user at a time. The purpose of this program is to develop and explore operating system components, 
@@ -8,7 +8,7 @@ architecture given in the assignment sheet using the following specification out
 
 
 
-#II.	Sample Execution
+# II.	Sample Execution
     Sample Input-
       The input will be read in from the files “program1.dat” and “program2.dat” which will be submitted with the program. The commands 
       for 
@@ -122,7 +122,7 @@ architecture given in the assignment sheet using the following specification out
       Line 105   1111000000000000
       Line 106   0000000000011001
 
-#III.	Dictionary of Variables
+# III.	Dictionary of Variables
  
   Machine.java-
       public int rA: holds the value of the special register rA as an integer
